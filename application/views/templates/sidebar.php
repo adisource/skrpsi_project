@@ -142,7 +142,7 @@ $id= $_SESSION['id'];
 
 
 <li class="nav-item ">
-  <a class="nav-link" href="<?php echo site_url('lihat_data/lihat_skripsi_diajukan/index/'.$_SESSION['nim_asuser'])?>">
+  <a class="nav-link" href="<?php echo site_url('lihat_data/lihat_skripsi_diajukan')?>">
     <i class="fas fa-eye"></i>
     <span>Lihat Skripsi Diajukan</span></a>
 </li>

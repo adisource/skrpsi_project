@@ -31,10 +31,10 @@ class Skripsi_model extends CI_Model{
         
     }
 
-    public function get_dataskripsi($nim){
+    public function get_dataskripsi(){
         $this->db->select('*');
         $this->db->from('skripsi');
-        $this->db->where('id_nim',$nim);
+        $this->db->where('id_nim',$this->session->userdata("nim_asuser"));
         return $this->db->get();
 
     }

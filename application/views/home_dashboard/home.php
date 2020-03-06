@@ -3,6 +3,7 @@
 
 <?php $this->load->view('templates/header_home.php');?>
 
+
 <body id="page-top">
 
   <!-- Page Wrapper -->
