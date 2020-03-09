@@ -49,7 +49,7 @@
 </li>
 
 <li class="nav-item ">
-  <a class="nav-link" href="<?php echo site_url('lihat_data/lihat_skripsi_diajukan')?>">
+  <a class="nav-link" href="<?php echo site_url('lihat_data/lihat_data_skripsi_diajukan_to_prodi')?>">
     <i class="fas fa-eye"></i>
     <span>Lihat Skripsi Diajukan</span></a>
 </li>

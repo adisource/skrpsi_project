@@ -36,6 +36,11 @@ class Skripsi_model extends CI_Model{
         $this->db->from('skripsi');
         $this->db->where('id_nim',$this->session->userdata("nim_asuser"));
         return $this->db->get();
+    }
+    public function view_dataskripsi(){
+        $this->db->select('*');
+        $this->db->from('skripsi');
+        return $this->db->get();
 
     }
     public function get_Statusditerima(){
